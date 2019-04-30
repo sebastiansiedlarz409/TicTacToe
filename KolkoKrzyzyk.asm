@@ -33,7 +33,7 @@ licznik_remisu db 0
 
 ;kolory w RGB little endian
 kolor_tla dd 00AA0000h 
-kolor_kolka dd 0000AA00h
+kolor_kolka dd 0000AB00h
 kolor_krzyzyka dd 000000FFh
 kolor_siatki dd 00000000h
 kolor_przekreslenia dd 0000FFFFh
