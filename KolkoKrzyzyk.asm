@@ -1,4 +1,4 @@
-ï»¿.386
+.386
 .MODEL Flat, STDCALL
 option casemap:none
 
@@ -14,21 +14,21 @@ includelib \masm32\lib\gdi32.lib
 .data
 
 klasa_okna db "WinClass",0
-tytul db "KÃ³Å‚ko KrzyÅ¼yk",0
+tytul db "Kó³ko Krzy¿yk",0
 tekst db "Witaj!",0
 char WPARAM 20h  
 tablica dd " "," "," "," "," "," "," "," "," "
 ostatni_znak dd 88
-er db "BÅ‚Ä…d!",0
-zly_klawisz db "Do wyboru pola uÅ¼yj myszki lub klawiszy 1-9 oraz upewnij siÄ™ czy pole nie jest juÅ¼ zajÄ™te!!!",0
+er db "B³¹d!",0
+zly_klawisz db "Do wyboru pola u¿yj myszki lub klawiszy 1-9 oraz upewnij siê czy pole nie jest ju¿ zajête!!!",0
 w db "WYGRANA!!!",0
 wO db "Wygrywa O!!!",0
 wX db "Wygrywa X!!!",0
-pomoc db "R - nowa gra",13,10,"P - pomoc",13,10,"ESC - wyjÅ›cie",0
+pomoc db "R - nowa gra",13,10,"P - pomoc",13,10,"ESC - wyjœcie",0
 uwaga db "Uwaga!!!",0
-restart db "Gra rozpocznie siÄ™ na nowo!",0
+restart db "Gra rozpocznie siê na nowo!",0
 pom db "Pomoc",0
-remis db "Brak zwyciÄ™scy!!!",0
+remis db "Brak zwyciêscy!!!",0
 licznik_remisu db 0
 
 ;kolory w RGB little endian
